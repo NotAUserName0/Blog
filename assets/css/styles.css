@@ -1,0 +1,171 @@
+html {
+  min-height: 100%;
+  position: relative;
+  }
+  
+  footer{
+  
+    margin-top: 40px;
+    color: white;
+    background-color: black;
+    bottom: 0;
+    width: 100%;
+    bottom: 0;
+  }
+  
+  .navbar-collapse{
+    flex-grow: 0 !important;
+  }
+  
+  .feed{
+    display: flex;
+  }
+  
+  .sidebar{
+    width: 20%;
+    display: block;
+    justify-content: center;
+  }
+  
+  .main_content{
+  margin-bottom: 40px;
+    width: 100%;
+  }
+  
+  .user-menu{
+    padding-top: 10px;
+  }
+  
+  .img_user{
+    height: 100px;
+    width: 100px;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  
+  ul{
+    list-style:none;
+  }
+  
+  a{
+    text-decoration: none;
+    color: black;
+  }
+  
+  a:hover{
+    text-decoration: underline;
+    color: black;
+  }
+  
+  p{
+    text-align: center;
+  }
+  
+  .section_menu{
+    margin-top: 20px;
+    margin-left: 10px;
+  }
+  
+  .section_post{
+    border: solid 1px black;
+      margin-left: 20px;
+      margin-right: 20px;
+      /*margin-bottom: 20px;*/
+  }
+  
+  .data_post{
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+    margin-right: 10px;
+    margin-left: 10px;
+  }
+  
+  .user_name{
+    display: flex;
+    margin-top: auto;
+    margin-bottom: auto;
+  }
+  
+  .img_post{
+    height: 35px;
+    width: 35px;
+    margin-right: 10px;
+  }
+  
+  .text_post{
+    margin-top: 10px;
+    margin-right: 10px;
+    margin-left: 10px;
+  }
+  
+  .text_post > p{
+    text-align: left;
+  }
+  
+  .reactions_post{
+    display: flex;
+    margin-top: 10px;
+    margin-right: 10px;
+    margin-left: 10px;
+  }
+  
+  .post_box{
+    margin-right: 10px;
+    margin-bottom: 10px;
+  }
+  
+  
+  .feed_perfil{
+    display: flex;
+  align-items: center;
+  justify-content: center;
+  }
+  
+  .contenedor{
+    width: 60%;
+  }
+  
+  .form-control{
+    border-top: none;
+    border-left: none;
+    border-right: none;
+  }
+  
+  .form-control:focus{
+    box-shadow: none;
+  }
+
+  .coments{
+    border: solid 1px black;
+      margin-left: 20px;
+      margin-right: 20px;
+  
+  }
+  
+  .coments>p{
+    padding: 10px;
+    text-align: left;
+  }
+  
+  .coments_form{
+    padding: 10px;
+    width: 100%;
+    display: flex;
+  }
+  
+  .cf{
+    border: solid 1px black;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    width: 80%;
+    float: right;
+  }
+  
+  #coments_input{
+    width: 80%;
+  }
